@@ -1,0 +1,16 @@
+//
+//  ZDPrefixHeader.pch
+//  LoginModule
+//
+//  Created by zhudong on 2017/5/5.
+//  Copyright © 2017年 zhudong. All rights reserved.
+//
+
+#ifndef ZDPrefixHeader_pch
+#define ZDPrefixHeader_pch
+
+#import "UIView+ZDFrame.h"
+
+#define ScreenSize [UIScreen mainScreen].bounds.size
+
+#endif /* ZDPrefixHeader_pch */
