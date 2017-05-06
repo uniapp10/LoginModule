@@ -2,12 +2,12 @@
 Pod::Spec.new do |s| #s代表文件夹位置为一级,ss代表文件夹位置为二级
 
   s.name         = "LoginModule"
-  s.version      = "0.0.16"
+  s.version      = "0.0.1"
   s.summary      = "LoginModule for iOS project."
   s.description  = <<-DESC
                   LoginModule
                   DESC
-  s.homepage     = "https://github.com/zhudong10/03View"
+  s.homepage     = "https://github.com/zhudong10/LoginModule"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   #导入工程的pch文件
   s.prefix_header_file = 'LoginModule/ZDPrefixHeader.pch'
