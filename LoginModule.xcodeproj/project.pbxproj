@@ -41,6 +41,7 @@
 		532171431EBC7CC8003DD857 /* LoginSuccessController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginSuccessController.xib; sourceTree = "<group>"; };
 		534C52961EBC8E0C002F71DA /* ZDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTabBarController.h; sourceTree = "<group>"; };
 		534C52971EBC8E0C002F71DA /* ZDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTabBarController.m; sourceTree = "<group>"; };
+		53C62D1C1EBDFA7E00CB5D5C /* LoginModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModule.h; sourceTree = "<group>"; };
 		53E4EFC01EBC81D300117747 /* UIView+ZDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZDFrame.h"; sourceTree = "<group>"; };
 		53E4EFC11EBC81D300117747 /* UIView+ZDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZDFrame.m"; sourceTree = "<group>"; };
 		53E4EFC31EBC835E00117747 /* ZDPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPrefixHeader.pch; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		532171191EBC7695003DD857 /* LoginModule */ = {
 			isa = PBXGroup;
 			children = (
+				53C62D1C1EBDFA7E00CB5D5C /* LoginModule.h */,
 				53E4EFBF1EBC813500117747 /* Category */,
 				532171311EBC76DA003DD857 /* LoginUI */,
 				5321711D1EBC7695003DD857 /* AppDelegate.h */,
