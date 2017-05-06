@@ -28,7 +28,7 @@
 - (IBAction)loginClick:(UIButton *)sender {
     NSString *account = self.accountTF.text;
     NSString *pwd = self.pwdTF.text;
-    if (![account isEqualToString:@"can't say secrect"]) {
+    if (![account isEqualToString:@"can't say secret"]) {
         UIAlertController *alertC = [UIAlertController alertControllerWithTitle:@"提示" message:@"你丫用户名错啦" preferredStyle:UIAlertControllerStyleAlert];
         UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
             [self.accountTF becomeFirstResponder];

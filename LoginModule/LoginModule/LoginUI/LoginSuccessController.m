@@ -21,7 +21,7 @@
     
     self.iconV.contentMode = UIViewContentModeScaleAspectFit;
     self.iconV.frame = CGRectMake(0, 100 + ScreenSize.height, 80, 80);
-    self.welcomeL.frame = CGRectMake(0, 200 + ScreenSize.height, 100, 30);
+    self.welcomeL.frame = CGRectMake(0, 200 + ScreenSize.height, 300, 30);
     self.welcomeL.textAlignment = NSTextAlignmentCenter;
     self.iconV.x = (ScreenSize.width - self.iconV.frame.size.width) * 0.5;
     self.welcomeL.x = (ScreenSize.width - self.welcomeL.frame.size.width) * 0.5;
