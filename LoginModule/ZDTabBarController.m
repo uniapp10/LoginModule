@@ -20,7 +20,8 @@
     
     
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[[LoginController alloc] init]];
-    UITabBarItem *tabBarItem = [[UITabBarItem alloc] initWithTitle:@"登录" image:[UIImage imageNamed:@"send"] selectedImage:[UIImage imageNamed:@"sending"]];
+    ;
+    UITabBarItem *tabBarItem = [[UITabBarItem alloc] initWithTitle:@"登录" image: [[UIImage imageNamed:@"send"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]selectedImage:[[UIImage imageNamed:@"sending"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
     nav.tabBarItem = tabBarItem;
     [self addChildViewController:nav];
 }

@@ -19,7 +19,7 @@ Pod::Spec.new do |s| #s代表文件夹位置为一级,ss代表文件夹位置为
                       # 文件来源 #
     ss.source_files = 'LoginModule/LoginUI/**/*.{h,m}'
                       # 资源文件 #
-    ss.resources = 'LoginModule/**/*.xcassets'
+    ss.resources = 'LoginModule/Login.xcassets’, 'LoginModule/**/*.xib’ 
   	end
 s.subspec 'Category' do |ss| 
               # 文件来源 #
