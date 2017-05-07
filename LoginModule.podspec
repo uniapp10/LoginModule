@@ -2,7 +2,7 @@
 Pod::Spec.new do |s| #s代表文件夹位置为一级,ss代表文件夹位置为二级
 
   s.name         = "LoginModule"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "LoginModule for iOS project."
   s.description  = <<-DESC
                   LoginModule
