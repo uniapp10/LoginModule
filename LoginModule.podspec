@@ -2,7 +2,7 @@
 Pod::Spec.new do |s| #s代表文件夹位置为一级,ss代表文件夹位置为二级
 
   s.name         = "LoginModule"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "LoginModule for iOS project."
   s.description  = <<-DESC
                   LoginModule
@@ -19,9 +19,10 @@ Pod::Spec.new do |s| #s代表文件夹位置为一级,ss代表文件夹位置为
                       # 文件来源 #
     ss.source_files = 'LoginModule/LoginUI/**/*.{h,m}'
                       # 资源文件 #
-    #ss.resources = ['LoginModule/Login.xcassets', 'LoginModule/LoginUI/**/*.xib']
+    ss.resources = ['LoginModule/Login.xcassets', 'LoginModule/LoginUI/**/*.xib']
     #ss.resources = 'LoginModule/LoginUI/**/*.xib'
     #ss.resources = 'LoginModule/**/*.xcassets'
+  end
 s.subspec 'Category' do |ss| 
               # 文件来源 #
 	ss.source_files = 'LoginModule/Category/**/*.{h,m}'
